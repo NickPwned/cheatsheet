@@ -4,10 +4,38 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
 .list {
     display: inline-block;
     font-size: 30px;
     text-align: center;
     position: relative;
     width: 100%;
+}
+
+.html {
+    background-color: rgba(99, 240, 245, 0.3);
+}
+
+.basic th {
+    background-color: aqua;
+}
+
+.basic,
+.basic th,
+.basic td {
+    border: 2px solid rgb(45, 167, 238);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.code {
+    background-color: beige;
 }
